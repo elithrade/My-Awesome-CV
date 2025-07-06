@@ -43,7 +43,8 @@
 
 % If you would like to change the social information separator from a pipe (|) to something else
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
-
+% Set globally for all second-level items
+\renewcommand{\labelitemii}{•}
 
 %-------------------------------------------------------------------------------
 %	PERSONAL INFORMATION
@@ -99,11 +100,12 @@
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
 \input{resume/summary.tex}
+\input{resume/skills.tex}
+\input{resume/education.tex}
 \input{resume/experience.tex}
 % \input{resume/presentation.tex}
 % \input{resume/writing.tex}
 % \input{resume/committees.tex}
-\input{resume/education.tex}
 % \input{resume/extracurricular.tex}
 
 
